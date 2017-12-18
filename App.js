@@ -5,19 +5,10 @@
  */
 
 import React, { Component } from 'react';
-import { StackNavigator } from 'react-navigation';
-
-// import custom components
-import HomeScreen from './components/HomeScreen';
-import ChatScreen from './components/ChatScreen';
-
-const NewsFeeds = StackNavigator({
-  Home: { screen: HomeScreen },
-  Chat: { screen: ChatScreen },
-});
+import { Nav } from './app/config/router';
 
 export default class App extends Component {
   render() {
-    return <NewsFeeds />;
+    return <Nav />;
   }
 }
