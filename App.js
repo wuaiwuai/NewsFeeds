@@ -5,10 +5,13 @@
  */
 
 import React, { Component } from 'react';
-import { Nav } from './app/config/router';
+import { LoginNavStack, Nav } from './app/config/router';
 
-export default class App extends Component {
+class App extends Component {
   render() {
-    return <Nav />;
+    const nav = <Nav />;
+    return nav;
   }
 }
+
+export default App;

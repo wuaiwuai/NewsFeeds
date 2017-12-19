@@ -11,4 +11,4 @@ class StackScreen extends Component {
   }
 }
 
-module.exports = StackScreen;
+export default StackScreen;

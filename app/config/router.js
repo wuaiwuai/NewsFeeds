@@ -5,6 +5,7 @@ import HomeScreen from '../screens/HomeScreen';
 import FeedsScreen from '../screens/FeedsScreen';
 import ProfileScreen from '../screens/ProfileScreen';
 import StackScreen from '../screens/StackScreen';
+import LoginHomeScreen from '../screens/LoginHomeScreen';
 
 /**
  * home
@@ -22,6 +23,12 @@ export const HomeStack = StackNavigator({
   },
   Stack: {
     screen: StackScreen,
+  },
+});
+
+export const LoginNavStack = StackNavigator({
+  LoginHome: {
+    screen: LoginHomeScreen,
   },
 });
 

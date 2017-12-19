@@ -11,4 +11,4 @@ class ProfileScreen extends Component {
   }
 }
 
-module.exports = ProfileScreen;
+export default ProfileScreen;

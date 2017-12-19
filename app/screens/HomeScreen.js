@@ -16,4 +16,4 @@ HomeScreen.propTypes = {
   navigation: PropTypes.object.isRequired,
 };
 
-module.exports = HomeScreen;
+export default HomeScreen;
