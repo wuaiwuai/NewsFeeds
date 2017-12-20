@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { WebView } from 'react-native';
 
-class StackScreen extends Component {
+class ArticleScreen extends Component {
   render() {
     return (
       <WebView
@@ -11,4 +11,4 @@ class StackScreen extends Component {
   }
 }
 
-export default StackScreen;
+export default ArticleScreen;

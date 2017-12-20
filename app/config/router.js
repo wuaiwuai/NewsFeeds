@@ -4,13 +4,13 @@ import { StackNavigator, TabNavigator } from 'react-navigation';
 import HomeScreen from '../screens/HomeScreen';
 import FeedsScreen from '../screens/FeedsScreen';
 import ProfileScreen from '../screens/ProfileScreen';
-import StackScreen from '../screens/StackScreen';
+import ArticleScreen from '../screens/ArticleScreen';
 import LoginHomeScreen from '../screens/LoginHomeScreen';
 
 /**
- * home
- *  - homestack (subnavigation)
- *  - stackscreen (another random screen)
+ * homestack
+ *  - homescreen (subnavigation)
+ *  - articlescreen (article page)
  * feeds
  *  - feedsscreen
  * profile
@@ -21,8 +21,8 @@ export const HomeStack = StackNavigator({
   Home: {
     screen: HomeScreen,
   },
-  Stack: {
-    screen: StackScreen,
+  Article: {
+    screen: ArticleScreen,
   },
 });
 

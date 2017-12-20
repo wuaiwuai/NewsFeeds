@@ -7,7 +7,7 @@ class HomeScreen extends Component {
     const { navigate } = this.props.navigation;
     return <View>
         <Text>Hello, Navigation!</Text>
-        <Button onPress={() => navigate('Stack')} title="Go to a nested stack screen" />
+        <Button onPress={() => navigate('Article')} title="Go to a nested stack screen" />
       </View>;
   }
 }
